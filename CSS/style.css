@@ -1,0 +1,130 @@
+.container {
+    max-width: 960px;
+  }
+  
+  /*
+   * Custom translucent site header
+   */
+  
+  .site-header {
+    background-color: white;
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+  }
+  .site-header a {
+    color: black;
+    transition: color .15s ease-in-out;
+    font-family: 'Plus Jakarta Sans';
+  }
+  .site-header a:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /*
+   * Dummy devices (replace them with your own or something else entirely!)
+   */
+  
+  .product-device {
+    position: absolute;
+    right: 10%;
+    bottom: -30%;
+    width: 300px;
+    height: 540px;
+    background-color: blue;
+    border-radius: 21px;
+    transform: rotate(30deg);
+  }
+  
+  .product-device::before {
+    position: absolute;
+    top: 10%;
+    right: 10px;
+    bottom: 10%;
+    left: 10px;
+    content: "";
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 5px;
+  }
+  
+  .product-device-2 {
+    top: -25%;
+    right: auto;
+    bottom: 0;
+    left: 5%;
+    background-color: blue;
+  }
+  
+  
+  /*
+   * Extra utilities
+   */
+  
+  .flex-equal > * {
+    flex: 1;
+  }
+  @media (min-width: 768px) {
+    .flex-md-equal > * {
+      flex: 1;
+      
+body {
+  font-family: 'Plus Jakarta Sans'; 
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  min-height:100vh;
+
+
+  
+  }
+
+
+.hero {
+     background-image: url("/Images/image 146secondtry.png");
+     display: flex;
+     justify-content: center;
+     width: 1211px;
+     height: 782px;
+
+    
+    }
+.letters {
+    text-align: center;
+    color: white;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 800;
+    font-size: 70px;
+
+  .background-image {
+
+    background-image: url("/Images/image 146secondtry.png");
+  }
+
+
+
+
+}
+
+img {
+  max-width: 100%;
+}
+
+
+  .woodlawn {
+    float: right;
+    display: inline-block;
+
+  
+
+  }
+
+h1 {
+  font-family: 'Plus Jakarta Sans'; 
+  text-align: center;
+
+}
+
+#Wonder {
+  margin: 1000px;
+}
+
